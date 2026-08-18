@@ -12,7 +12,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
 }
 
 .main {
@@ -40,4 +40,39 @@ ul {
     align-items: center;
     list-style-type: none;
     gap: 20px;
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: #1F2937;
+    padding: 50px;
+}
+
+.hero-content {
+    width: 400px;
+}
+
+#hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#hero-secondary-text {
+    color:#E5E7EB;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    width: 400px;
+    height: 400px;
 }
