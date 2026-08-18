@@ -76,3 +76,36 @@ ul {
     width: 400px;
     height: 400px;
 }
+
+#card-header {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.cards {
+    width: 200px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    outline: 5px solid blue;
+    border-radius: 15px;
+}
+
+#card-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
